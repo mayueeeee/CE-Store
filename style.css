@@ -1,0 +1,25 @@
+/*
+ Theme Name:     CE Store
+ Theme URI:      https://www.oooo.zone
+ Description:    Shop Isle Child Theme for CE Store 2017
+ Author:         Sarunyu Chankong
+ Author URI:     https://www.oooo.zone
+ Template:       shop-isle
+ Version:        1.0.0
+*/
+/* Import Thai font */
+@import url("//fonts.googleapis.com/css?family=Athiti:400,600");
+
+/* Begin custom section */
+
+
+
+.font-alt{
+    font-family: 'Athiti', sans-serif;
+    letter-spacing: 0;
+}
+.nav{
+    font-family: 'Athiti', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0;
+}
