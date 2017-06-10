@@ -7,13 +7,20 @@
  Template:       shop-isle
  Version:        1.0.0
 */
+
 /* Import Thai font */
-@import url("//fonts.googleapis.com/css?family=Athiti:400,600");
+@import url("//fonts.googleapis.com/css?family=Athiti:400,,500,600");
 
 /* Begin custom section */
 
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Athiti', sans-serif;
+    font-weight: 500;
+}
 
-
+.site-title{
+    font-family: 'Roboto Condensed', sans-serif;
+}
 .font-alt{
     font-family: 'Athiti', sans-serif;
     letter-spacing: 0;
@@ -22,4 +29,26 @@
     font-family: 'Athiti', sans-serif;
     font-size: 16px;
     letter-spacing: 0;
+}
+.product_title,.entry-title{
+    font-family: 'Athiti', sans-serif !important; 
+    font-weight: 400;    
+    letter-spacing: 0 !important;
+}
+
+.button {
+    font-family: 'Athiti', sans-serif !important; 
+    font-size: 16px !important;
+}
+
+.module-title{
+    font-size: 40px;
+    margin: 0 0 0px;
+    font-weight: 500;
+}
+/* WooCommerce style*/
+.woocommerce-billing-fields input{
+    font-family: sans-serif !important;
+    font-size: 14px !important;
+    letter-spacing: 0 !important;
 }
