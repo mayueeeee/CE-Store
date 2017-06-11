@@ -46,8 +46,8 @@ h1,h2,h3,h4,h5,h6{
     margin: 0 0 20px;
     font-weight: 500;
 }
-.wpcf7-form input{
-    width: 100% !important;
+.nf-field-element input, .nf-field-element select, .nf-field-element textarea{
+    height: auto !important;
 }
 /* WooCommerce style*/
 .woocommerce-billing-fields input{
