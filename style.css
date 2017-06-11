@@ -47,7 +47,7 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 500;
 }
 .nf-field-element input, .nf-field-element select, .nf-field-element textarea{
-    height: 30px;;
+    height: 30px !important;
 }
 /* WooCommerce style*/
 .woocommerce-billing-fields input{
